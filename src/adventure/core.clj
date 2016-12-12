@@ -12,6 +12,7 @@
 		:on-use "You strip the petals off the rose delicately and place them on the wooden floor."
 	}
 	:caviar{
+		:name "Caviar"
 		:title "some caviar"
 	}
 	})
@@ -187,7 +188,7 @@
 
 (def adventurer
 	{:location :foyer
-		:inventory #{:rose :old-book}
+		:inventory #{}
 		:tick 0
 		:health 10
 		:trapdoorOpen false
@@ -242,9 +243,12 @@
 (defn getItemsInRoom [player]
 	(let [location (player :location) contents (-> the-map location :contents)]
 		(if (empty? contents)
-			(println "You find nothing interesting in this room.")
-			(doseq [item contents] (println (str "You found " (-> the-items item :title) "."))))
-		(update-in player [:inventory] #(conj % contents))))
+			(do 
+				(println "You find nothing interesting in this room.")
+				player)
+			(do
+				(doseq [item contents] (println (str "You found " (-> the-items item :title) ".")))
+				(assoc-in player [:inventory] (conj contents (player :inventory)))))))
 
 (defn searchRoom [player]
 	(let [location (player :location)]
