@@ -19,10 +19,10 @@ Your goal is to find a rare item by defeating the boss.
 To see all the commands in the game, type "help".
 
 
-```````````````````````````````````````````````````````````````````````
-   SPOLERS! SPOILERS! SPOLERS! SPOILERS! SPOLERS! SPOILERS! SPOLERS! 
 
-```````````````````````````````````````````````````````````````````````
+SPOLERS! SPOILERS! SPOLERS! SPOILERS! SPOLERS! SPOILERS! SPOLERS!
+=================================================================
+=================================================================
 
 WALKTHROUGH:
 ===========
