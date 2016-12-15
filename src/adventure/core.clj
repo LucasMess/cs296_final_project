@@ -353,10 +353,10 @@
 	(println "  dance - to reduce the tension.")
 	(println "  inventory, i - check items in the inventory.")
 	(println "  climb - climb up or down.")
-	(println "	equip <item> - equips an item to be used for fighting.")
-	(println "	examine <item> - examines an item.")
-	(println "	use <item> - uses an item.")
-	(println "	read <item> - reads what is written in an item.")
+	(println "  equip <item> - equips an item to be used for fighting.")
+	(println "  examine <item> - examines an item.")
+	(println "  use <item> - uses an item.")
+	(println "  read <item> - reads what is written in an item.")
 	player)
 
 (defn checkInventory [player]
