@@ -95,7 +95,6 @@
 		:title "in the foyer"
 		:desc "The room is dimly lit by the occasional lightning, but you can clearly see the peeling wallpaper and the dense spider webs that populate the walls. Behind the wallpaper you see a yellow glue that once held it to the wall. There are numerous bugs stuck to this glue, so you decide to stop looking at it. There is a dark rug covering most the floor. Footsteps are barely visible on it, but the surrounding wooden floor has a thick layer of dust. You get the feeling that no one has been in here in years."
 		:dir {
-			:south :pantry
 			:north :living-room
 			:east :hallway-lower
 		} 
@@ -231,6 +230,7 @@
 		:desc "A very spacious and nice bedroom. It is oddly quiet in here, but then again, the house IS empty."
 		:dir {
 			:south :bathroom-master
+			:west :hallway-upper
 		} 
 		:contents #{}
 	}
@@ -504,7 +504,7 @@
 	    (:dance) (dance player)
 
 	    ;; Debugging
-	    ;;(:debug) (debug player)
+	    (:debug) (debug player)
 
 	    ;; Climb up the mysterious trap door.
 	    (:climb) (climbUpTrapdoor player)
