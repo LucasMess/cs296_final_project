@@ -1,17 +1,5 @@
 # cs296_final_project
-Final project for CS 296, an text-based adventure game.
-
-8   8                                      8   8                        
-8   8 eeeee e   e eeeee eeeee eeee eeeee   8   8 eeeee e   e eeeee eeee 
-8eee8 8   8 8   8 8   8   8   8    8   8   8eee8 8  88 8   8 8   " 8    
-88  8 8eee8 8e  8 8e  8   8e  8eee 8e  8   88  8 8   8 8e  8 8eeee 8eee 
-88  8 88  8 88  8 88  8   88  88   88  8   88  8 8   8 88  8    88 88   
-88  8 88  8 88ee8 88  8   88  88ee 88ee8   88  8 8eee8 88ee8 8ee88 88ee 
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-=======================================================================
-
-					      ~ a game by Lucas Message
+Final project for CS 296, an text-based adventure game by Lucas Message.
 
 
 
