@@ -259,7 +259,7 @@
 
 (def adventurer
 	{:location :foyer
-		:inventory #{:candle :rose :chalk :old-book :teddybear}
+		:inventory #{}
 		:tick 0
 		:health 10
 		:trapdoorOpen false
@@ -504,7 +504,7 @@
 	    (:dance) (dance player)
 
 	    ;; Debugging
-	    (:debug) (debug player)
+	    ;;(:debug) (debug player)
 
 	    ;; Climb up the mysterious trap door.
 	    (:climb) (climbUpTrapdoor player)
